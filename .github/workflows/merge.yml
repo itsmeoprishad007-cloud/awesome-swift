@@ -6,14 +6,14 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@
+      - uses: ruby/setup-ruby@
       - run: ruby .github/convert.rb
       - name: Push changes
-        uses: actions-go/push@v1
+        uses: actions-go/push@
         with:
-          force: true
+          force: false
           author-name: AwesomeSwift Bot
           commit-message: 'Updated markdown'
