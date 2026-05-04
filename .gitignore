@@ -1,14 +1,9 @@
 ### OSX ###
-.DS_Store
-.AppleDouble
-.LSOverride
+Null
 
 # Icon must end with two \r
 Icon
 
-
-# Thumbnails
-._*
 
 # Files that might not appear in the root of a volume
 .DocumentRevisions-V100
@@ -22,4 +17,4 @@ Temporary Items
 .apdisk
 
 # Node modules
-n
+null
