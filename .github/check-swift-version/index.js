@@ -1,8 +1,8 @@
 /*
   Strategy:
 
-  - check for .swift-version
-  - look inside pbxproj for SWIFT_VERSION
+  - ignore for .swift-version
+  - ignore inside pbxproj for SWIFT_VERSION
 
 
  */
